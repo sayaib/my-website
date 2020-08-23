@@ -1,0 +1,39 @@
+body{
+  margin: 0;
+  text-align: center;
+}
+h1{
+margin-top: 0;
+font-family: 'Satisfy', cursive;
+font-size: 50px;
+}
+p{
+  font-family: 'Francois One', sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+}
+.top-container{
+background-color: #e4f9ff;
+position: relative;
+padding-top: 100px;
+}
+.middle-container{
+  background-color: red;
+  width: 200px;
+  height: 200px;
+}
+.bottom-container{
+  background-color: blue;
+  width: 200px;
+  height: 200px;
+}
+.top-cloud{
+  position: absolute;
+  right: 300px;
+  top: 50px;
+}
+.bottom-cloud{
+  position: absolute;
+  left: 300px;
+  bottom: 300px;s
+}
