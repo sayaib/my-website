@@ -84,7 +84,7 @@ p.intro {
 
 .top-cloud {
   position: absolute;
-  right: 200px;
+  right: 100px;
   top: 50px;
 }
 
@@ -140,6 +140,6 @@ a:hover{
 }
 .copyright{
   color: #EAF6F6;
-  font-size: 0.75rem;
+  font-size: 10px;
   padding: 20px 0;
 }
