@@ -6,7 +6,7 @@ body{
 #title{
   background-color: #ff4c68;
   color: #fff;
-  padding: 3% 15%;
+  padding: 3% 15% 10% 15%;
 
 }
 h1{
@@ -25,7 +25,7 @@ h4{
 padding-bottom: 1.5rem;
 }
 .navbar{
-  padding-bottom: 4rem;
+  padding-bottom: 5rem;
 }
 .navbar-toggler{
   background-image: url('images/menu.png');
