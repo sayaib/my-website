@@ -24,14 +24,16 @@ padding-bottom: 1.5rem;
 .navbar{
   padding-bottom: 4rem;
 }
-.navbar-brand{
-  font-size: 1.5rem;
+.navbar-toggler{
+  background-image: url('images/menu.png');
 }
+
 .nav-item{
   padding-right: 5%;
 }
 .nav-link{
   font-size: 1.2rem;
+  color: white;
 }
 .col-lg-6{
   padding:50px;
