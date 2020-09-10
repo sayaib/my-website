@@ -5,4 +5,39 @@ body{
 #title{
   background-color: #ff4c68;
   color: #fff;
+  padding: 3% 15%;
+
+}
+h1{
+  font-size: 3rem;
+
+}
+h3{
+  font-size: 1.2rem;
+    line-height: 1.5;
+}
+h4{
+padding-bottom: 1.5rem;
+}
+.navbar{
+  padding-bottom: 4rem;
+}
+.navbar-brand{
+  font-size: 1.5rem;
+}
+.nav-item{
+  padding-right: 5%;
+}
+.nav-link{
+  font-size: 1.2rem;
+}
+.col-lg-6{
+  padding:50px;
+}
+.title-img{
+width: 350px;
+padding-left: 15%;
+}
+.btn{
+  margin:10% 7% 10% 0;
 }
