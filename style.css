@@ -18,6 +18,9 @@ h3{
   font-size: 1.2rem;
     line-height: 1.5;
 }
+h2{
+  font-size: 1.5rem;
+}
 h4{
 padding-bottom: 1.5rem;
 }
@@ -45,4 +48,26 @@ padding-left: 15%;
   margin:10% 7% 10% 0;
   font-size: 15px;
   font-weight: 100;
+}
+
+/* skills section */
+
+.skills{
+  padding: 7% 15%;
+}
+.skill{
+  align-items: center;
+  text-align: center;
+}
+.skill-p{
+  font-size: 1rem;
+  line-height: 1.5;
+  color: #7e8a97;
+}
+.icon{
+  color: #ef8172;
+  margin-bottom: 1rem;
+}
+.icon:hover{
+  color: #ff4c68;
 }
