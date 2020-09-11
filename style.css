@@ -53,11 +53,12 @@ padding-left: 15%;
 /* skills section */
 
 .skills{
-  padding: 7% 15%;
+  padding: 7% 20%;
 }
 .skill{
   align-items: center;
   text-align: center;
+  padding: 2% 5%;
 }
 .skill-p{
   font-size: 1rem;
