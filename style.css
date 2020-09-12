@@ -72,3 +72,10 @@ padding-left: 15%;
 .icon:hover{
   color: #ff4c68;
 }
+
+/* My Work Section */
+
+#works{
+  background-color: #ef8172;
+  padding: 7% 15%;
+}
