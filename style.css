@@ -82,6 +82,11 @@ padding-left: 15%;
 .card{
   background-color: #393e46;
 }
+.card:hover{
+  opacity: 0.7;
+  cursor: pointer;
+  transition: 0.4s;
+}
 .card-body{
   padding: 30px;
   color: #fff;
@@ -90,7 +95,7 @@ padding-left: 15%;
   padding: 3%;
 }
 .folder{
-  padding-bottom: 10px;
+  padding-bottom: 15px;
   color:  #ef8172;
 }
 .link{
@@ -99,6 +104,7 @@ padding-left: 15%;
   color:  #ef8172;
 }
 .card-title{
+  font-size: 1.5rem;
   padding-bottom: 7px;
 }
 .card-text{
