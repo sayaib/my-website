@@ -83,9 +83,22 @@ padding-left: 15%;
   background-color: #393e46;
 }
 .card-body{
-  padding: 40px;
+  padding: 30px;
   color: #fff;
 }
 .banner{
   padding: 3%;
+}
+.folder{
+  padding-bottom: 10px;
+}
+.link{
+  float: right;
+  padding: 5px;
+}
+.card-title{
+  padding-bottom: 7px;
+}
+.card-text{
+padding-top: 7px;
 }
