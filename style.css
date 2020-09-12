@@ -113,12 +113,13 @@ padding-left: 15%;
   color:  #ef8172;
 }
 .card-title{
-  font-size: 1.5rem;
+  font-size: 1.8rem;
   padding-bottom: 7px;
 }
 .card-text{
 padding-top: 7px;
 }
+
 
 /* Footer Section */
 #footer{
@@ -130,5 +131,6 @@ text-align: center;
   color: #000;
 }
 .copyright{
-  font-size: 0.7rem;
+  font-size: 0.9rem;
+  color: #1a1c20;
 }
