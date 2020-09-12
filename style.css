@@ -76,11 +76,15 @@ padding-left: 15%;
 /* My Work Section */
 
 #works{
-  background-color: #ef8172;
+  background-color: #ff4c68;
   padding: 7% 15%;
+}
+.card{
+  background-color: #393e46;
 }
 .card-body{
   padding: 40px;
+  color: #fff;
 }
 .banner{
   padding: 3%;
