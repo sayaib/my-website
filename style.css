@@ -79,3 +79,9 @@ padding-left: 15%;
   background-color: #ef8172;
   padding: 7% 15%;
 }
+.card-body{
+  padding: 40px;
+}
+.banner{
+  padding: 3%;
+}
