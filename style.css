@@ -119,3 +119,16 @@ padding-left: 15%;
 .card-text{
 padding-top: 7px;
 }
+
+/* Footer Section */
+#footer{
+padding: 7% 15%;
+text-align: center;
+}
+.social{
+  padding: 3%;
+  color: #000;
+}
+.copyright{
+  font-size: 0.7rem;
+}
