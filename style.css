@@ -107,9 +107,11 @@ padding-left: 15%;
 }
 @media (max-width: 1000px) {
   .banner-body{
+    padding: 70px 50px;
     height: 500px;
     width: auto;
   }
+
 }
 .folder{
   padding-bottom: 15px;
@@ -123,6 +125,18 @@ padding-left: 15%;
 .card-title{
   font-size: 1.8rem;
   padding-bottom: 7px;
+}
+@media (max-width:1000px) {
+  .card-title{
+    font-size: 55px;
+    padding: 15px 0 15px 0;
+  }
+  .card-text{
+    font-size: 30px;
+  }
+  .card-subtitle{
+    font-size: 30px;
+  }
 }
 .card-text{
 padding-top: 7px;
