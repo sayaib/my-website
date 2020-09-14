@@ -128,14 +128,14 @@ padding-left: 15%;
 }
 @media (max-width:1000px) {
   .card-title{
-    font-size: 55px;
+    font-size: 50px;
     padding: 15px 0 15px 0;
   }
   .card-text{
-    font-size: 30px;
+    font-size: 25px;
   }
   .card-subtitle{
-    font-size: 30px;
+    font-size: 25px;
   }
 }
 .card-text{
