@@ -36,6 +36,7 @@ padding-bottom: 1.5rem;
 }
 .nav-link{
   font-size: 1.1rem;
+  text-align: center;
 }
 .col-lg-6{
   padding:50px;
@@ -44,7 +45,7 @@ padding-bottom: 1.5rem;
 width: 330px;
 padding-left: 15%;
 }
-.btn{
+.button{
   margin:10% 7% 10% 0;
   font-size: 15px;
   font-weight: 100;
@@ -57,6 +58,9 @@ padding-left: 15%;
     font-size: 1.6rem;
   }
   h4{
+    font-size: 2rem;
+  }
+  .nav-link{
     font-size: 2rem;
   }
 
@@ -168,6 +172,23 @@ padding-top: 7px;
   }
 }
 
+/* Contact Section */
+#contact{
+  padding: 7% 15%;
+  text-align: center;
+  background-color: #ef8172;
+  color: #fff;
+}
+.get-in{
+  padding: 20px 0;
+}
+.get-info{
+  padding: 15px 0;
+  font-size: 20px;
+}
+.contact-me{
+  border-radius: 20px;
+}
 
 
 /* Footer Section */
