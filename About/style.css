@@ -1,0 +1,75 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Rubik', sans-serif;
+}
+
+header {
+  background-color: #c3f5ff;
+  height: 10vh;
+  font-family: 'Rubik', sans-serif;
+}
+
+ul {
+  list-style-type: none;
+  float: right;
+  margin-top: 15px;
+  font-weight: 900px;
+  position: relative;
+  margin-right: 25px;
+}
+
+ul li {
+  display: inline-block;
+  padding: 20px;
+}
+
+ul li a {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #000;
+  font-weight: 700;
+  font-size: 17px;
+  position: relative;
+  font-family: 'Rubik', sans-serif;
+}
+
+ul li a:before {
+  content: " ";
+  position: absolute;
+  top: 110%;
+  left: 0;
+  width: 0;
+  height: 2px;
+  border-bottom: 2px solid #4458dc;
+  transition: all 0.4s linear;
+}
+
+ul li a:hover:before {
+  width: 100%;
+}
+
+hr {
+  padding: 0;
+  border: none;
+  height: 1px;
+  background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+  background-image: -moz-linear-gradient(left, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+  background-image: -ms-linear-gradient(left, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+  background-image: -o-linear-gradient(left, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+  color: #4458dc;
+  text-align: center;
+}
+
+h5 {
+  margin: 75px;
+  font: bold 24px "Century Schoolbook", Georgia, Times, serif;
+}
+
+ul li a.about {
+  color: #4458dc;
+}
+
+h1 {
+  padding-top: 50px;
+}

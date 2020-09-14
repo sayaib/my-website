@@ -1,191 +1,53 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
+<html>
 
 <head>
-  <meta charset="utf-8">
   <title>Sayaib Sarkar</title>
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Rubik&display=swap" rel="stylesheet">
+  <link rel="icon" href="favicon.png">
 
-
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-  <link rel="stylesheet" href="style.css">
-  <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&family=Roboto:wght@500&display=swap" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css2?family=Acme&display=swap" rel="stylesheet">
-
-  <script src="https://use.fontawesome.com/0fedbcee32.js"></script>
-  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 </head>
 
 <body>
 
-  <!-- Navigation Bar -->
-  <section id="title">
+  <header>
+    <section class="navsection">
+      <div class="logo">
+        <h1>SAYAIB SARKAR</h1>
+      </div>
+      <nav>
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
 
-    <div class="container-fluid">
+        <a href="work.html">Work</a>
+        <a href="contact.html">Contact</a>
 
-      <nav class="navbar navbar-expand-lg navbar-dark">
-        <img src="images/icon.png" alt="">
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
 
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
 
-          <ul class="navbar-nav ml-auto">
-            <li class="nav-item">
-              <a class="nav-link active" href="index.html">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Portfolio</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Contact</a>
-            </li>
-          </ul>
-        </div>
       </nav>
-
-
-
-      <!-- Home Screen Page -->
-
-      <div class="row">
-        <div class="col-lg-6">
-          <h4>Hello.</h4>
-          <h1>I'm Sayaib Sarkar</h1>
-          <h3>a software engineer, web and android developer</h3>
-          <button type="button" class="btn btn-dark btn-md download-btn button"><i class="fa fa-suitcase" aria-hidden="true"></i> Hire me</button>
-          <button type="button" class="btn btn-outline-light btn-md download-btn button"><i class="fa fa-phone" aria-hidden="true"></i> Contact me</button>
-        </div>
-        <div class="col-lg-6">
-          <img class="title-img" src="images/sayaib.png" alt="sayaib-img">
-
-        </div>
+    </section>
+    <main>
+      <div class="leftside">
+        <h3>hello</h3>
+        <h1>I am Sayaib Sarkar</h1>
+        <h2>Software Engineer, Android Developer and Web Developer</h2>
+        <a href="mailto:sayaib009@gmail.com" class="btn1">hire me</a>
+        <a href="mailto:sayaib@protonmail.com" class="btn2">contact me</a>
       </div>
-    </div>
 
-  </section>
-
-  <!-- Skills Section -->
-  <div class="skills">
-
-    <div class="row">
-      <div class="col-lg-4 skill">
-        <i class="fa fa-code fa-3x icon" aria-hidden="true"></i>
-        <h2>Develop what you need.</h2>
-        <p class="skill-p">I'm a developer, so I know how to create
-          your website to run across devices using the latest technologies available.</p>
+      <div class="rightside">
+        <img src="images/sayaib.jpg">
       </div>
-      <div class="col-lg-4 skill">
-        <i class="fa fa-css3 fa-3x icon" aria-hidden="true"></i>
-        <h2>Design what you want.</h2>
-        <p class="skill-p">I like to keep it simple. My goals are to focus on typography,
-          content and conveying the message that you want to send.</p>
-      </div>
-      <div class="col-lg-4 skill">
-        <i class="fa fa-android fa-3x icon" aria-hidden="true"></i>
-        <h2>Develop your dream app.</h2>
-        <p class="skill-p">I'm a satisfied Android Developer, hope my work will not
-          disappoint you.</p>
-      </div>
-    </div>
-  </div>
+    </main>
 
-  <!-- My works Section -->
-  <section id="works">
-    <h1 class="work-heading">Some Things I've Built</h1>
 
-    <div class="row">
-      <div class="col-lg-4 banner">
-        <div class="banner-body">
-          <i class="fa fa-folder-o fa-4x folder" aria-hidden="true"></i>
-          <a href="#" class="card-link"><i class="fa fa-github fa-2x link" aria-hidden="true"></i></a>
-          <a href="#" class="card-link"><i class="fa fa-external-link fa-2x link" aria-hidden="true"></i></a>
-          <h5 class="card-title">TinDog</h5>
-          <h6 class="card-subtitle mb-2 text-muted">Meet new and interesting dogs nearby.</h6>
-          <p class="card-text">A single page web app for helping people to Find the True Love of Dog's Life,
-            Build with HTML5, CSS, Bootstrap 4</p>
-        </div>
-      </div>
-      <div class="col-lg-4 banner">
-        <div class="banner-body">
-          <i class="fa fa-folder-o fa-4x folder" aria-hidden="true"></i>
-          <a href="#" class="card-link"><i class="fa fa-github fa-2x link" aria-hidden="true"></i></a>
-          <a href="#" class="card-link"><i class="fa fa-external-link fa-2x link" aria-hidden="true"></i></a>
-          <h5 class="card-title">TinDog</h5>
-          <h6 class="card-subtitle mb-2 text-muted">Meet new and interesting dogs nearby.</h6>
-          <p class="card-text">A single page web app for helping people to Find the True Love of Dog's Life,
-            Build with HTML5, CSS, Bootstrap 4</p>
-        </div>
-      </div>
-      <div class="col-lg-4 banner">
-        <div class="banner-body">
-          <i class="fa fa-folder-o fa-4x folder" aria-hidden="true"></i>
-          <a href="#" class="card-link"><i class="fa fa-github fa-2x link" aria-hidden="true"></i></a>
-          <a href="#" class="card-link"><i class="fa fa-external-link fa-2x link" aria-hidden="true"></i></a>
-          <h5 class="card-title">TinDog</h5>
-          <h6 class="card-subtitle mb-2 text-muted">Meet new and interesting dogs nearby.</h6>
-          <p class="card-text">A single page web app for helping people to Find the True Love of Dog's Life,
-            Build with HTML5, CSS, Bootstrap 4</p>
-        </div>
-      </div>
-      <div class="col-lg-4 banner">
-        <div class="banner-body">
-          <i class="fa fa-folder-o fa-4x folder" aria-hidden="true"></i>
-          <a href="#" class="card-link"><i class="fa fa-github fa-2x link" aria-hidden="true"></i></a>
-          <a href="#" class="card-link"><i class="fa fa-external-link fa-2x link" aria-hidden="true"></i></a>
-          <h5 class="card-title">TinDog</h5>
-          <h6 class="card-subtitle mb-2 text-muted">Meet new and interesting dogs nearby.</h6>
-          <p class="card-text">A single page web app for helping people to Find the True Love of Dog's Life,
-            Build with HTML5, CSS, Bootstrap 4</p>
-        </div>
-      </div>
-      <div class="col-lg-4 banner">
-        <div class="banner-body">
-          <i class="fa fa-folder-o fa-4x folder" aria-hidden="true"></i>
-          <a href="#" class="card-link"><i class="fa fa-github fa-2x link" aria-hidden="true"></i></a>
-          <a href="#" class="card-link"><i class="fa fa-external-link fa-2x link" aria-hidden="true"></i></a>
-          <h5 class="card-title">TinDog</h5>
-          <h6 class="card-subtitle mb-2 text-muted">Meet new and interesting dogs nearby.</h6>
-          <p class="card-text">A single page web app for helping people to Find the True Love of Dog's Life,
-            Build with HTML5, CSS, Bootstrap 4</p>
-        </div>
-      </div>
-      <div class="col-lg-4 banner">
-        <div class="banner-body">
-          <i class="fa fa-folder-o fa-4x folder" aria-hidden="true"></i>
-          <a href="#" class="card-link"><i class="fa fa-github fa-2x link" aria-hidden="true"></i></a>
-          <a href="#" class="card-link"><i class="fa fa-external-link fa-2x link" aria-hidden="true"></i></a>
-          <h5 class="card-title">TinDog</h5>
-          <h6 class="card-subtitle mb-2 text-muted">Meet new and interesting dogs nearby.</h6>
-          <p class="card-text">A single page web app for helping people to Find the True Love of Dog's Life,
-            Build with HTML5, CSS, Bootstrap 4</p>
-        </div>
-      </div>
-    </div>
+  </header>
 
-  </section>
 
-  <!-- Contact Section -->
 
-  <section id="contact">
-    <h1 class="get-in">Get In Touch</h1>
-    <p class="get-info">I'm currently looking for any new opportunities,
-      my inbox is always open. Whether you have a question or just want to say hi,
-      I'll try my best to get back to you!.</p>
-    <a class="btn btn-outline-dark contact-me" href="#">CONTACT ME</a>
-  </section>
 
-  <!-- Footer Section -->
 
-  <section id="footer">
-    <a href="#"><i class="social fa fa-github fa-2x" aria-hidden="true"></i></a>
-    <a href="#"><i class="social fa fa-linkedin fa-2x" aria-hidden="true"></i></a>
-    <a href="#"><i class="social fa fa-twitter fa-2x" aria-hidden="true"></i></a>
-
-    <p class="copyright">Language: en | Copyright © 2020, Sayaib Sarkar. All rights reserved.</p>
-  </section>
 
 </body>
 

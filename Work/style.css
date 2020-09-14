@@ -1,0 +1,127 @@
+@import "http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css";
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Rubik', sans-serif;
+}
+
+header {
+  background-color: #c3f5ff;
+  height: 10vh;
+}
+
+ul {
+  list-style-type: none;
+  float: right;
+  margin-top: 15px;
+  font-weight: 900;
+  position: relative;
+  margin-right: 25px;
+}
+
+ul li {
+  display: inline-block;
+  padding: 20px;
+}
+
+ul li a {
+  text-decoration:none;
+	text-transform:uppercase;
+	color:#000;
+	font-weight:700;
+	font-size:17px;
+	position:relative;
+  font-family: 'Rubik', sans-serif;
+}
+
+ul li a:hover {
+  color: #000;
+}
+
+ul li a:before {
+  content: " ";
+  position: absolute;
+  top: 110%;
+  left: 0;
+  width: 0;
+  height: 2px;
+  border-bottom: 2px solid #4458dc;
+  transition: all 0.4s linear;
+}
+
+ul li a:hover:before {
+  width: 100%;
+}
+
+hr {
+  border-style: none;
+  border-color: #4458dc;
+  height: 12px;
+  border: 0;
+  box-shadow: inset 0 12px 12px -12px rgba(0, 0, 0, 0.5);
+}
+
+h1 {
+  padding-top: 150px;
+  padding-bottom: 60px;
+}
+
+.container {
+  width: 980px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.card {
+  position: relative;
+  padding: 15px;
+  width: 300px;
+  height: auto;
+  box-sizing: border-box;
+  transition: 0.5s;
+}
+
+.card .fa {
+  font-size: 40px;
+  padding-bottom: 10px;
+}
+
+.card h3 {
+  font-size: 20px;
+  padding-bottom: 10px;
+}
+
+.card p {
+  font-size: 17px;
+}
+
+.card span {
+  position: absolute;
+  top: -5px;
+  left: 0;
+  width: 100%;
+  background: #67a3ff;
+  height: 5px;
+  opacity: 0;
+  border-radius: 10px;
+  transition: 0.5s;
+}
+
+.card:hover {
+  background: #c3f5ff;
+  box-shadow: 0 5px 5px rgba(0, 0, 0, 0.3);
+  transition: 0.5s;
+}
+
+.card:hover span {
+  opacity: 1;
+}
+
+.card .btn1 {
+font-weight: 800;
+text-transform: uppercase;
+}
+ul li a.work{
+  color:#4458dc;
+}
