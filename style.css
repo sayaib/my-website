@@ -100,7 +100,7 @@ padding-left: 15%;
   padding: 5% 5%;
 }
 .work-heading{
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Acme', sans-serif;
   color: #fff;
   padding: 3% 0 10% 0;
   text-align: center;
@@ -126,6 +126,9 @@ padding-left: 15%;
    box-shadow: 5px 5px 5px #000;
 }
 @media (max-width: 1000px) {
+  .work-heading{
+    font-size: 3.3rem;
+  }
   .banner-body{
     padding: 70px 50px;
     height: 500px;
