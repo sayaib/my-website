@@ -77,7 +77,7 @@ padding-left: 15%;
 
 #works{
   background-color: #ff4c68;
-  padding: 7% 15%;
+  padding: 5% 10%;
 }
 .work-heading{
   font-family: 'Roboto', sans-serif;
@@ -87,21 +87,27 @@ padding-left: 15%;
   font-size: 2.5rem;
 
 }
-.card{
+
+
+.banner-body{
   background-color: #393e46;
   border-radius: 5px;
-}
-.card:hover{
-  opacity: 0.7;
-  cursor: pointer;
-  transition: 0.4s;
-}
-.card-body{
   padding: 30px;
   color: #fff;
 }
 .banner{
-  padding: 3%;
+  padding: 2%;
+}
+.banner-body:hover{
+  opacity: 0.7;
+  cursor: pointer;
+  transition: 0.4s;
+}
+@media (max-width: 1000px) {
+  .banner-body{
+    height: 400px;
+    width: auto;
+  }
 }
 .folder{
   padding-bottom: 15px;
